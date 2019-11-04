@@ -2,3 +2,9 @@
     background-image: url("good_pie.jpg");
     background-size: cover;
   }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
