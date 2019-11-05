@@ -3,6 +3,16 @@
     background-size: cover;
   }
 
+  .background-img2 {
+    background-image: url("flag_pie.jpg");
+    background-size: cover;
+  }
+
+  .background-img3 {
+    background-image: url("bake_pie.jpg");
+    background-size: cover;
+  }
+
 .footer {
     position: fixed;
     bottom: 0;
