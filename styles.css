@@ -1,20 +1,70 @@
 .background-img {
+  position: relative;
+  background: rgba(0, 0, 0, 0.1); /* If our image is bright, we can tone it down with this darker overlay */
+  padding-top:200px;
+  padding-bottom:200px;
+  }
+  .background-img:after {
+    content: "";
+    position: absolute;
     background-image: url("good_pie.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5; /* Tone the image down further by giving it transparency */
   }
 
   .background-img2 {
+    position: relative;
+    background: rgba(0, 0, 0, 0.1); /* If our image is bright, we can tone it down with this darker overlay */
+    padding-top:200px;
+    padding-bottom:200px;
+  }
+
+  .background-img2:after {
+    content: "";
+    position: absolute;
     background-image: url("flag_pie.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5; /* Tone the image down further by giving it transparency */
   }
 
   .background-img3 {
-    background-image: url("bake_pie.jpg");
-    background-size: cover;
+    position: relative;
+    background: rgba(0, 0, 0, 0.1); /* If our image is bright, we can tone it down with this darker overlay */
+    padding-top:200px;
+    padding-bottom:200px;
   }
 
-.footer {
+  .background-img3:after {
+    content: "";
+    position: absolute;
+    background-image: url("bake_pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5; /* Tone the image down further by giving it transparency */
+  }
+
+/* .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
+} */
