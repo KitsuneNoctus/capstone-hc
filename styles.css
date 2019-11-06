@@ -66,6 +66,8 @@
 .navbar {
   display: flex;
   justify-content: center;
+  font-family: "Parkavenue", Parkavenue, cursive;
+  font-size: 300px
 }
 /* .footer {
     position: fixed;
